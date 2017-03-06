@@ -23,36 +23,46 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    
+
+}
+
+-(void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    [mondayScrollView setScrollEnabled:YES];
+    //[mondayScrollView setContentSize: self.view.frame.size];
+    [mondayScrollView setContentSize:CGSizeMake(self.view.frame.size.width, 3986)];
+    //[mondayScrollView setContentInset:UIEdgeInsetsMake(64 + 50, 0, 0, 0)];
+
+    
     [myScrollview setScrollEnabled:YES];
     [myScrollview setContentSize: CGSizeMake(320, 1300)];
     
     
-    [mondayScrollView setScrollEnabled:YES];
-    [mondayScrollView setContentSize: CGSizeMake(320, 4870)];
-    
     [tuesdayScrollView setScrollEnabled:YES];
-    [tuesdayScrollView setContentSize:CGSizeMake(320, 3650)];
+    [tuesdayScrollView setContentSize:CGSizeMake(self.view.frame.size.width, 3650)];
     
     [wednesdayScrollView setScrollEnabled:YES];
-    [wednesdayScrollView setContentSize:CGSizeMake(320, 3450)];
+    [wednesdayScrollView setContentSize:CGSizeMake(self.view.frame.size.width, 3450)];
     
     [thursdayScrollView setScrollEnabled:YES];
-    [thursdayScrollView setContentSize:CGSizeMake(320, 1000)];
+    [thursdayScrollView setContentSize:CGSizeMake(self.view.frame.size.width, 1000)];
     
     [fridayScrollView setScrollEnabled:YES];
-    [fridayScrollView setContentSize:CGSizeMake(320, 1200)];
+    [fridayScrollView setContentSize:CGSizeMake(self.view.frame.size.width, 1200)];
     
     [saturdayScrollView setScrollEnabled:NO];
-    [saturdayScrollView setContentSize:CGSizeMake(320, 1000)];
+    [saturdayScrollView setContentSize:CGSizeMake(self.view.frame.size.width, 1000)];
     
     [goodiesScrollView setScrollEnabled:YES];
-    [goodiesScrollView setContentSize:CGSizeMake(320, 3900)];
-    
+    [goodiesScrollView setContentSize:CGSizeMake(self.view.frame.size.width, 3900)];
     
     
     
 
 }
+
+
 
 
 - (void)didReceiveMemoryWarning
@@ -119,6 +129,9 @@
 
 
 }
+
+
+
 
 - (void)gotoWorld:(id)sender
 {

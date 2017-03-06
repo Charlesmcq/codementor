@@ -24,6 +24,7 @@
 		7304C6D91E5BCB3800CAC5B7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7304C6D81E5BCB3800CAC5B7 /* MainStoryboard.storyboard */; };
 		7304C6DB1E5BCC4C00CAC5B7 /* calendar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7304C6DA1E5BCC4C00CAC5B7 /* calendar_icon.png */; };
 		7304C6DD1E5BD2F700CAC5B7 /* D-Va.png in Resources */ = {isa = PBXBuildFile; fileRef = 7304C6DC1E5BD2F700CAC5B7 /* D-Va.png */; };
+		7312412D1E66442E00257718 /* backarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312412C1E66442E00257718 /* backarrow.png */; };
 		731621FF1C79FC1F0070E595 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9A15C618F1D14B008F96CF /* Images.xcassets */; };
 		731622391C7E23B90070E595 /* deMerchBlackTank.png in Resources */ = {isa = PBXBuildFile; fileRef = 7316222E1C7E23B90070E595 /* deMerchBlackTank.png */; };
 		7316223A1C7E23B90070E595 /* deMerchDanceTshirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7316222F1C7E23B90070E595 /* deMerchDanceTshirt.png */; };
@@ -111,6 +112,7 @@
 		7304C6D81E5BCB3800CAC5B7 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7304C6DA1E5BCC4C00CAC5B7 /* calendar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar_icon.png; path = ../../../Misc/icons/calendar_icon.png; sourceTree = "<group>"; };
 		7304C6DC1E5BD2F700CAC5B7 /* D-Va.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "D-Va.png"; path = "../../../../Downloads/D-Va.png"; sourceTree = "<group>"; };
+		7312412C1E66442E00257718 /* backarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backarrow.png; sourceTree = "<group>"; };
 		7316222E1C7E23B90070E595 /* deMerchBlackTank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deMerchBlackTank.png; path = ../merchimagesforapp/deMerchBlackTank.png; sourceTree = "<group>"; };
 		7316222F1C7E23B90070E595 /* deMerchDanceTshirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deMerchDanceTshirt.png; path = ../merchimagesforapp/deMerchDanceTshirt.png; sourceTree = "<group>"; };
 		731622301C7E23B90070E595 /* deMerchGrayTank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deMerchGrayTank.png; path = ../merchimagesforapp/deMerchGrayTank.png; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 				73D27CDF1D9C908500AC2615 /* dancer_t_shirt.png */,
 				731622371C7E23B90070E595 /* deMerchWaterBottles.png */,
 				731622381C7E23B90070E595 /* deMerchYellowTank.png */,
+				7312412C1E66442E00257718 /* backarrow.png */,
 				7304C6DC1E5BD2F700CAC5B7 /* D-Va.png */,
 				CAB8453F16CC8AEE0051B3A9 /* Dance Ex */,
 				CAB8453816CC8AEE0051B3A9 /* Frameworks */,
@@ -468,6 +471,7 @@
 				CAF2A2B61895F63A001C2D2B /* tab4Icon.png in Resources */,
 				CAB8454C16CC8AEE0051B3A9 /* Default.png in Resources */,
 				7316223F1C7E23B90070E595 /* deMerchPants.png in Resources */,
+				7312412D1E66442E00257718 /* backarrow.png in Resources */,
 				CAF2A2AE1895F4C1001C2D2B /* tab2Icon.png in Resources */,
 				CAC95010188862EC0027AFF6 /* tab2Solid.png in Resources */,
 				CAC9500D188862EC0027AFF6 /* tab1Solid@2x.png in Resources */,
